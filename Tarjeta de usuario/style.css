@@ -1,0 +1,48 @@
+body{
+    font-family: 'Comic Neue', cursive;
+}
+.tarjetaUsuario{
+    display:flex;
+    flex-direction:column;
+    width: 600px;
+    border: 2px solid rgb(184, 182, 182);
+    }
+header{
+    background-color: rgb(64, 177, 192);
+    position:relative;
+    height: 80px;
+}
+.imagenUsuario{
+    width: 80px;
+    position:absolute;
+    top: 40px;
+    left:10px;
+    border-radius:50%;
+    border:3px solid white;
+    box-shadow: 0 0 2px 2px gray;
+}
+main{
+    padding:20px;
+}
+.nombreUsuario{
+    margin-top:30px;
+}
+.ubicacion,.edicion{
+    display:flex;
+    flex-direction: row;
+}
+.imagenUbicacion{
+width: 15px;
+}
+.imagenEditar{
+width: 15px;
+}
+.ciudad, .editarPerfil{
+    margin-left:10px;
+}
+.ubicacion{
+    margin-bottom: 8px;
+}
+.edicion{
+    margin-top:8px;
+}
